@@ -2,7 +2,7 @@
 node_modules/
 
 # editor settings
-.vscode/
+.vscode/*
 !.vscode/settings.example.json
 
 # test output
