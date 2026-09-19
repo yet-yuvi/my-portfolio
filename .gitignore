@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# editor settings
+.vscode/
+!.vscode/settings.example.json
+
+# test output
+coverage/
+
+# build output (only if these folders exist)
+build/
+dist/
+.vite/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# caches
+.eslintcache
+.parcel-cache/
+.cache/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
