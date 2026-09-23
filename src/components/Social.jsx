@@ -3,7 +3,7 @@ function Social() {
     <ul className="flex gap-4">
       <li>
         <a
-          className="text-sky-500 hover:underline"
+          className="text-sky-600 hover:underline"
           href="https://www.linkedin.com/in/jubayar-ahamad-find/"
           target="_blank"
           rel="noopener noreferrer"
@@ -13,7 +13,7 @@ function Social() {
       </li>
       <li>
         <a
-          className="text-sky-500 hover:underline"
+          className="text-sky-600 hover:underline"
           href="https://github.com/yet-yuvi"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,8 +23,8 @@ function Social() {
       </li>
       <li>
         <a
-          className="text-sky-500 hover:underline"
-          href="https://jubayar-portfolio.netlify.app/"
+          className="text-sky-600 hover:underline"
+          href="https://yet-yuvi.github.io/my-portfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >
