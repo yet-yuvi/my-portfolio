@@ -2,7 +2,7 @@ import ProjectCard from './ProjectCard';
 
 function Projects({ projects }) {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center gap-2">
       <h2 className="text-zinc-800 text-3xl font-bold mb-4">GitHub Projects</h2>
       {projects.length === 0 ? (
         <p>No projects available.</p>
