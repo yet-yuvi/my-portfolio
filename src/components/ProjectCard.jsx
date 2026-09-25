@@ -3,7 +3,7 @@ import { useState } from 'react';
 const ReactionButton = ({ reaction, toggleLike }) => {
   return (
     <button
-      className={`px-3 py-1 text-white text-xs font-medium rounded ${
+      className={`inline-flex justify-center items-center min-w-[60px] px-2 py-1 text-white text-xs font-medium rounded transition-colors duration-200 ease-in-out active:scale-95 ${
         reaction === 'like'
           ? 'bg-sky-500 hover:bg-sky-600'
           : 'bg-gray-500 hover:bg-gray-600'
